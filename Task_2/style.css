@@ -1,0 +1,204 @@
+/* Import fonts */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body */
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #e2e2e2;
+    color: #fff;
+    line-height: 1.6;
+}
+
+/* Header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: #1f1d1d;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
+.logo {
+    font-size: 1.8rem;
+    color: #ffcc00;
+    cursor: pointer;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+}
+
+nav ul li a {
+    font-size: 1.2rem;
+    text-decoration: none;
+    color: #fff;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #ffcc00;
+    text-decoration: underline;
+}
+
+/* Hero section */
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 8rem 2rem;
+    background-color: #3d3d3d;
+}
+
+.profile-pic {
+    width: 350px;
+    height: 350px;
+    border-radius: 80%;
+    object-fit: cover;
+}
+
+h1 {
+    font-size: 3.8rem;
+    margin-top: 2.0rem;
+}
+
+h2 {
+    font-size: 1.8rem;
+    color: #ffcc00;
+    margin-top: 2.0rem;
+}
+
+p {
+    max-width: 1000px;
+    margin-top: 2.0rem;
+    color: #e7e7e7;
+    font-size: 1.2rem;
+}
+
+.social-links {
+    margin-top: 1.5rem;
+}
+
+.social-links a {
+    margin-right: 1rem;
+    color: #ffcc00;
+    text-decoration: none;
+}
+
+.cta-button {
+    margin-top: 2rem;
+    padding: 0.8rem 2rem;
+    background-color: #ffcc00;
+    color: #000;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+
+.cta-button:hover {
+    background-color: #ffb700;
+}
+
+/* Contact section */
+.contact {
+    padding: 2rem;
+    background-color: #111;
+    text-align: center;
+}
+
+.contact h2 {
+    font-size: 2rem;
+}
+
+.contact p {
+    font-size: 1.2rem;
+    margin-top: 1rem;
+}
+
+.contact a {
+    color: #ffcc00;
+    text-decoration: none;
+}
+
+.contact a:hover {
+    text-decoration: underline;
+}
+
+/* Stats section */
+.stats {
+    display: flex;
+    justify-content: center;
+    padding: 3rem 0;
+    background-color: #222;
+}
+
+.stat-item {
+    text-align: center;
+    margin: 0 2rem;
+}
+
+.stat-item h3 {
+    font-size: 3rem;
+    color: #ffcc00;
+}
+
+.stat-item p {
+    font-size: 1.2rem;
+    color: #ccc;
+}
+
+/* Services section */
+.services {
+    padding: 3rem 0;
+    background-color: #1a1a1a;
+    text-align: center;
+}
+
+.services h2 {
+    font-size: 2.5rem;
+    color: #ffcc00;
+    margin-bottom: 2rem;
+}
+
+.service-card {
+    display: inline-block;
+    padding: 1.5rem 3rem;
+    background-color: #333;
+    border: 2px solid #444;
+    color: #ffcc00;
+    margin: 0.5rem;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.service-card:hover {
+    background-color: #ffcc00;
+    color: #1a1a1a;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 1.5rem;
+    background-color: #111;
+    color: #ccc;
+}
+
+footer p {
+    font-size: 1rem;
+}
